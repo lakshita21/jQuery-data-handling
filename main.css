@@ -1,0 +1,56 @@
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: fixed;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a:active {
+  background-color: rgb(40, 145, 206);
+  color: white;
+}
+
+#top{
+    cursor: hand;
+}
+select{
+    cursor: hand;
+}
+button{
+    cursor: hand;
+}
+#show{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;}
+
+p{
+    text-align: center;
+    font-size: 30px;
+}   
+table, th, td 
+{
+    border: solid 2px grey;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+}
+th {
+    font-weight:bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}

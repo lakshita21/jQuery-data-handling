@@ -1,0 +1,52 @@
+<html>
+<head>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'> 
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">      
+</head>
+
+<body onload="sorted()">
+                <div class="w3-container w3-center w3-animate-top">
+        <div class="topnav" id="myDIV">
+                <a  id="top" onclick='Nsorted()'>By Name</a>
+                <a   id="top" onclick='Ysorted()' >By Year</a>
+                <a   id="top" ><select id="year1">
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                         </select>   </a>
+                    <a  id="top"><select id="year2">
+                            <option value="2011">2011</option>
+                            <option value="2012">2012</option>
+                            <option value="2013">2013</option>
+                            <option value="2014">2014</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                        </select>   </a>    
+                        <a id="top"><i class="fa fa-search" onclick='find(year1,year2)'></i>
+                        </a>
+               <!-- <a ><button onclick='find(year1,year2)'>Find</button></a>-->
+                <a  id="top" onclick="sortA()">Ascending By Cast</a>
+                <a  id="top"  onclick="sortD()">Descending By Cast</a>
+                      <a  id="top">
+                            <select onchange="filte(this[selectedIndex].text)" id="mySelect" >
+                                    <option value="Select cast">Select A Cast</option>
+                                      </select>
+                    </a>
+                    </div>
+                    </div>
+  <div id="show" style="margin-left: 20px; margin-top: 90px" class="w3-container w3-left w3-animate-zoom">
+</div>
+<script src="main.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <script src="task_1.js"></script>
+</body>
+</html>
